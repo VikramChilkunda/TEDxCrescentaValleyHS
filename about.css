@@ -1,0 +1,357 @@
+/*effects to play on load*/
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-50%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+@-moz-keyframes slideInFromLeft{
+  0% {
+      transform: translateX(-50%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+@-webkit-keyframes slideInFromLeft{
+  0% {
+      transform: translateX(-50%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+@keyframes slideDown {
+  0% {
+    bottom: 15%;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes slideDown{
+  0% {
+    bottom: 15%;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideDown{
+  0% {
+    bottom: 15%;
+    opacity: 0;
+  }
+  100% {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+/*end on load effects*/
+#large h1{
+    /*animation: 1s ease-out 1s 1 slideInFromLeft;*/
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-size:48px;
+    font-weight:700;
+    line-height:1em;
+    margin-top:10px;
+    color:#fff
+}
+#large p{
+    /*animation: 1s ease-out 1s 1 slideInFromLeft;*/
+    font-size: 15px;
+    color: #eee;
+}
+#button{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff00;
+  z-index: 2;
+  padding: 15px;
+  transition: 0.1s linear;
+  border: none;
+  animation: 1s ease-out 0s 1 slideDown;
+}
+#button:hover{
+  cursor: pointer;
+  background-color: black;
+}
+#button2{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%) scaleY(-1);
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff00;
+  z-index: 2;
+  padding: 15px;
+  transition: 0.1s linear;
+  border: none;
+  animation: 1s ease-out 0s 1 slideDown;
+}
+#button2:hover{
+  cursor: pointer;
+  background-color: black;
+}
+html, body{
+  height:100%;
+}
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+}
+.outer{
+    background-image: url("https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(4,9,30,0.6);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+}
+.overlay2{
+    background-color: rgba(1,1,70,0.4);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    display: block;
+    
+}
+#large{
+    height: 85%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.inner{
+    max-width: 85%;
+    height: 90vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo{
+    float: left;
+}
+#container{
+    float: right;
+}
+#myNav{
+    max-width: 50%;
+    margin: auto;
+    color: white;
+    z-index: 20;
+    font-family: Oswald;
+    height: 30px;
+    display: block;
+    padding: 1%;
+    font-size: 20px;
+}
+#myNav a{
+    color: white;
+}
+#myNav a:hover{
+    text-decoration: none;
+    
+}
+#container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#container a{
+    margin-right: 10px;
+}
+@media screen and (max-width: 600px) {
+  .inner{
+    max-width: 100%;
+    padding: 4px;
+    text-align: center;
+  }
+  #large{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  #myNav{
+      max-width: 100%;
+      font-size: 20px;
+  }
+}
+/*#large div{*/
+/*    margin: auto;*/
+/*  }*/
+@media only screen  and (min-width : 1224px) {
+  .inner{
+    max-width: 100%;
+    padding: 4px;
+    text-align: center;
+  }
+  #large{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  #large div{
+    margin: auto;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .inner{
+    max-width: 100%;
+    padding: 4px;
+    text-align: center;
+  }
+  #large{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+  #large div{
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 320px){
+  
+}
+/*Navbar*/
+.bg-light{
+  background-color: #ffffff00 !important;
+}
+#navWrapper{
+  float: right;
+}
+/*End Navbar*/
+#filler{
+  height: 1000px;
+}
+/*Large two column section*/
+.two-section{
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+.container-fluid{
+  height: 100%;
+}
+.row{
+  height: 100%;
+  text-align: center;
+}
+.two-section .col-lg-8{
+  background-image: url("https://www.tedxsonomacounty.com/wp-content/uploads/TEDx-logo-e1429555707499.jpg");
+  background-size: cover;
+}
+.col-lg-4{
+  padding-left:10%;
+  padding-right:10%;
+  border-left: 1px solid #eee;
+}
+#first-large{
+  background-color: white;
+}
+#second-large{
+  background-color: white;
+}
+.col-lg-4 h1{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Merriweather Sans";
+}
+.wrapper{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+.wrapper p{
+  max-width: 90%;
+}
+#two-section-2 .col-lg-8{
+  background-image: url("https://www.emergingedtech.com/wp/wp-content/uploads/2016/08/ted-talks-logo.jpg");
+  background-size: contain;
+  background-position: center;
+}
+#two-section-2 #overlay-2{
+  background-color: rgba(4,9,30,0.6);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  display: block;
+}
+.responsiveoverlay2{
+  display: none;
+  background-color: rgba(1,1,70,0.5);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+#first-large-col{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 600px){
+  .col-lg-8{
+    display: none;
+  }
+  #large div{
+    width: 100%;
+  }
+  #first-large{
+    background-color: #1b1f4f;
+    color: white;
+  }
+  #second-large{
+    background-image: url("https://www.emergingedtech.com/wp/wp-content/uploads/2016/08/ted-talks-logo.jpg");
+    color: white;
+  }
+  .responsiveoverlay2{
+    display: block;
+  }
+}
