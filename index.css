@@ -348,4 +348,7 @@ body{
   .nav-item{
     z-index: 30;
   }
+  .button2, #button2{
+    display: none;
+  }
 }

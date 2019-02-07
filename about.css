@@ -218,6 +218,9 @@ body{
       max-width: 100%;
       font-size: 20px;
   }
+  .button2, #button2{
+    display: none;
+  }
 }
 /*#large div{*/
 /*    margin: auto;*/

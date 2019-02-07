@@ -228,6 +228,9 @@ body{
       max-width: 100%;
       font-size: 20px;
   }
+  .button2, #button2{
+    display: none;
+  }
 }
 /*#large div{*/
 /*    margin: auto;*/
@@ -369,4 +372,11 @@ body{
   .responsiveoverlay2{
     display: block;
   }
+  #first-responsiveoverlay2{
+    background-color: rgba(1,1,70,0.5);
+  }
+  #second-responsiveoverlay2{
+    background-color: rgba(1,1,70,0.5);
+  }
+  
 }
