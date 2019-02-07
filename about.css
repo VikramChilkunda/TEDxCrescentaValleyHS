@@ -1,5 +1,7 @@
 /*effects to play on load*/
-
+  .nav-item{
+    z-index: 30;
+  }
 @keyframes slideInFromLeft {
   0% {
       transform: translateX(-50%);

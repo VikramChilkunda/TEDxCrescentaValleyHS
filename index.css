@@ -345,4 +345,7 @@ body{
   .responsiveoverlay2{
     display: block;
   }
+  .nav-item{
+    z-index: 30;
+  }
 }
