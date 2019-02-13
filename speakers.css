@@ -1,7 +1,5 @@
 /*effects to play on load*/
-  .nav-item{
-    z-index: 30;
-  }
+
 @keyframes slideInFromLeft {
   0% {
       transform: translateX(-50%);
@@ -97,24 +95,6 @@
   cursor: pointer;
   background-color: black;
 }
-.button2{
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%) scaleY(-1);
-  width: 50px;
-  height: 50px;
-  background-color: #ffffff00;
-  z-index: 2;
-  padding: 15px;
-  transition: 0.1s linear;
-  border: none;
-  animation: 1s ease-out 0s 1 slideDown;
-}
-.button2:hover{
-  cursor: pointer;
-  background-color: black;
-}
 #button2{
   position: absolute;
   bottom: 0px;
@@ -149,7 +129,7 @@ body{
 }
 .overlay{
     background-color: rgba(4,9,30,0.6);
-    height: 100%;
+    height: 100vh;
     position: absolute;
     left: 0;
     top:0;
@@ -159,26 +139,16 @@ body{
     display: block;
 }
 .overlay2{
-    background-color: rgba(1,1,70,0.9);
+    background-color: rgba(1,1,70,0.4);
     height: 100%;
     position: absolute;
     left: 0;
     top:0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: 0;
     display: block;
-}
-#secondoverlay{
-    background-color: rgba(11,255,230,0.9);
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top:0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    display: block;
+    
 }
 #large{
     height: 85%;
@@ -246,9 +216,6 @@ body{
       max-width: 100%;
       font-size: 20px;
   }
-  .button2, #button2{
-    display: none;
-  }
 }
 /*#large div{*/
 /*    margin: auto;*/
@@ -310,8 +277,9 @@ body{
   text-align: center;
 }
 .two-section .col-lg-8{
-  background-image: url("https://image.flaticon.com/icons/svg/732/732200.svg");
+  background-image: url("https://www.gusd.net/cms/lib/CA01000648/Centricity/ModuleInstance/4704/large/3454191437_042cecc1b8_b.jpg");
   background-size: cover;
+  background-position: center;
 }
 .col-lg-4{
   padding-left:10%;
@@ -332,18 +300,13 @@ body{
 .wrapper{
   position:absolute;
   top:50%;
-  left: 50%;
-  transform:translateY(-50%) translateX(-50%);
-  width: 100%;
+  transform:translateY(-50%);
 }
 .wrapper p{
   max-width: 90%;
-  margin: auto;
 }
 #two-section-2 .col-lg-8{
-  background-image: url("https://image.flaticon.com/icons/svg/1414/1414383.svg");
-  background-size: contain;
-  background-position: center;
+  background-image: url("https://images.unsplash.com/photo-1527261834078-9b37d35a4a32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
 }
 #two-section-2 #overlay-2{
   background-color: rgba(4,9,30,0.6);
@@ -353,7 +316,7 @@ body{
   top:0;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 0;
   display: block;
 }
 .responsiveoverlay2{
@@ -367,34 +330,30 @@ body{
   bottom: 0;
   z-index: 0;
 }
-#first-large-col{
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 @media screen and (max-width: 600px){
   .col-lg-8{
     display: none;
   }
-  #large div{
-    width: 100%;
-  }
   #first-large{
-    background-color: #1b1f4f;
+    background-image: url("https://www.gusd.net/cms/lib/CA01000648/Centricity/ModuleInstance/4704/large/3454191437_042cecc1b8_b.jpg");
     color: white;
   }
   #second-large{
-    background-color: white;
+    background-image: url("https://images.unsplash.com/photo-1527261834078-9b37d35a4a32?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
     color: white;
   }
   .responsiveoverlay2{
     display: block;
   }
-  #first-responsiveoverlay2{
-    background-color: rgba(1,1,70,0.5);
+  .nav-item{
+    z-index: 30;
   }
-  #second-responsiveoverlay2{
-    background-color: rgba(14,15,10,0.5);
+  .button2, #button2{
+    display: none;
   }
-  
+}
+#timfurlong{
+  background-image: url("https://www.speakermatch.com/uploads/profile/profile/2147243472/thumbs/500/2147243472_profpic.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
