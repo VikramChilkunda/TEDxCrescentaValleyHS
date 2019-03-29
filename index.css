@@ -339,7 +339,7 @@ body{
     color: white;
   }
   #second-large{
-    background-color: #eeeeee;
+    background-color: #eee;
     color: white;
   }
   .responsiveoverlay2{
@@ -351,4 +351,11 @@ body{
   .button2, #button2{
     display: none;
   }
+}
+#first-large{
+  border: 10px solid cornflowerblue;
+  /*border-right: 0px;*/
+}
+#second-large{
+  border: 10px solid purple;
 }

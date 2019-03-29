@@ -398,3 +398,10 @@ body{
   }
   
 }
+#first-large{
+  border: 10px solid cornflowerblue;
+  /*border-right: 0px;*/
+}
+#second-large{
+  border: 10px solid purple;
+}
