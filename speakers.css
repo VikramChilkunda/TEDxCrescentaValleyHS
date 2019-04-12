@@ -328,9 +328,6 @@ body{
   z-index: 0;
 }
 @media screen and (max-width: 600px){
-  .col-lg-8{
-    display: none;
-  }
   #first-large{
     background-image: url("https://www.gusd.net/cms/lib/CA01000648/Centricity/ModuleInstance/4704/large/3454191437_042cecc1b8_b.jpg");
     color: white;
@@ -376,6 +373,7 @@ body{
 #kathygruver{
   background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/MmbH12gmOmP7H1rsv88RTg/o.jpg");
   background-position: center;
+  background-size: cover;
 }
 #davidjacobsen{
   background-image: url("jacobson.jpg");
@@ -386,12 +384,14 @@ body{
   background-image: url("");
 }
 #timfurlong{
-  background-image: url("timfurlong.jpg");
-    background-position: center;
-  background-size: cover;
+  background-image: url("Tim+Furlong.jpg");
+  background-position: left;
+  background-size: 140%;
 }
 #hufsaahmad{
-  background-image: url("");
+  background-image: url("hufsa-ahmad.jpg");
+  background-position: top;
+  background-size: cover;
 }
 #mitchlewis{
   background-image: url("mitchlewis.jpg");
@@ -407,10 +407,34 @@ body{
   background-size: cover;
 }
 #judycarter{
-  background-image: url("");
+  background-image: url("https://www.apbspeakers.com/media/6123/carter_judy_091118.jpg?center=0.30165289256198347,0.38166666666666665&mode=crop&quality=70&height=775&rnd=131811429430000000");
+  background-position: 40%;
+  background-size: cover;
+  
 }
 #michaelogara{
   background-image: url("michaelogara.jpeg");
   background-position: center;
   background-size: cover;
 }
+@media only screen and (max-width: 600px){
+  .col-lg-4{
+    display: none;
+  }
+  .col-lg-8{
+    visibility: visible;
+    background-color: cornflowerblue;
+    border: 1px solid purple;
+    margin: 0px;
+    z-index: 1000;
+    text-align: center;
+    padding-top: 15%;
+    height: 100%;
+  }
+  #wrappertemp{
+    margin: auto;
+  }
+  .row{
+    background-color: white;
+  }
+} 
