@@ -361,7 +361,10 @@ body{
 .twopart{
   height: 50vh;
   margin-left: 0;
-  font-family: Lato;
+}
+.twopart h1{
+  font-family: "Merriweather Sans";
+  font-weight: 900;
 }
 .row{
   background-color: #eee;
@@ -375,29 +378,39 @@ body{
   background-position: center;
 }
 #davidjacobsen{
-  background-image: url("");
+  background-image: url("jacobson.jpg");
+  background-position: center;
+  background-size: cover;
 }
 #zoecannon{
   background-image: url("");
 }
 #timfurlong{
-  background-image: url("");
+  background-image: url("timfurlong.jpg");
+    background-position: center;
+  background-size: cover;
 }
 #hufsaahmad{
   background-image: url("");
 }
 #mitchlewis{
-  background-image: url("");
+  background-image: url("mitchlewis.jpg");
+  background-position: center;
+  background-size: cover;
 }
 #tateviknersisyan{
   background-image: url("");
 }
 #davemeltzer{
-  background-image: url("");
+  background-image: url("davidmeltzer.jpg");
+  background-position: center;
+  background-size: cover;
 }
 #judycarter{
   background-image: url("");
 }
 #michaelogara{
-  background-image: url("");
+  background-image: url("michaelogara.jpeg");
+  background-position: center;
+  background-size: cover;
 }
