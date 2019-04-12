@@ -263,7 +263,7 @@ body{
 }
 /*Large two column section*/
 .two-section{
-  height: 100vh;
+  height: 50vh;
   font-family: "Poppins", sans-serif;
 }
 .container-fluid{
@@ -281,7 +281,7 @@ body{
 .col-lg-4{
   padding-left:10%;
   padding-right:10%;
-  border-left: 1px solid #eee;
+  /*border-left: 1px solid #eee;*/
 }
 #first-large{
   background-color: white;
@@ -356,4 +356,48 @@ body{
   background-color: cornflowerblue;
   border-bottom: 2px solid black;
   line-height: 2.5em;
+}
+
+.twopart{
+  height: 50vh;
+  margin-left: 0;
+  font-family: Lato;
+}
+.row{
+  background-color: #eee;
+  border: 1px solid cornflowerblue;
+}
+.twopart .col-lg-8{
+  margin: auto;
+}
+#kathygruver{
+  background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/MmbH12gmOmP7H1rsv88RTg/o.jpg");
+  background-position: center;
+}
+#davidjacobsen{
+  background-image: url("");
+}
+#zoecannon{
+  background-image: url("");
+}
+#timfurlong{
+  background-image: url("");
+}
+#hufsaahmad{
+  background-image: url("");
+}
+#mitchlewis{
+  background-image: url("");
+}
+#tateviknersisyan{
+  background-image: url("");
+}
+#davemeltzer{
+  background-image: url("");
+}
+#judycarter{
+  background-image: url("");
+}
+#michaelogara{
+  background-image: url("");
 }
