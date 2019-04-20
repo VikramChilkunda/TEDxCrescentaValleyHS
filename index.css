@@ -360,3 +360,22 @@ body{
 #second-large{
   border: 10px solid purple;
 }
+
+#flyer{
+  position: absolute;
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  display: none;
+}
+#hideflyerbutton{
+  display: none;
+}
+#flyerbutton:focus ~ #flyer{
+  display: block;
+  z-index: 200;
+}
+#flyerbutton:focus ~ #hideflyerbutton{
+  display: inline-block;
+}
