@@ -381,7 +381,9 @@ body{
   background-size: cover;
 }
 #zoecannon{
-  background-image: url("");
+  background-image: url("zoecannon.png");
+  background-position: 5%;
+  background-size: 100%;
 }
 #timfurlong{
   background-image: url("Tim+Furlong.jpg");
@@ -399,7 +401,9 @@ body{
   background-size: cover;
 }
 #tateviknersisyan{
-  background-image: url("");
+  background-image: url("tatevik.jpeg");
+    background-position: center;
+  background-size: cover;
 }
 #davemeltzer{
   background-image: url("davidmeltzer.jpg");
