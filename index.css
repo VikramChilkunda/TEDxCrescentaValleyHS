@@ -379,3 +379,8 @@ body{
 #flyerbutton:focus ~ #hideflyerbutton{
   display: inline-block;
 }
+@media screen and (max-width: 600px){
+  #flyerbutton{
+    display: none;
+  }
+}
