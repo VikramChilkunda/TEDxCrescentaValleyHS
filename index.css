@@ -354,11 +354,18 @@ body{
   }
 }
 #first-large{
-  border: 10px solid cornflowerblue;
+    border-right: 10px solid purple;
+    border-top: 10px solid red;
+    border-left: 10px solid green;
+    border-bottom: 10px solid black;
   /*border-right: 0px;*/
 }
 #second-large{
-  border: 10px solid purple;
+  border-right: 10px solid #ff0000;
+  border-top: 10px solid #ff7200;
+  border-left: 10px solid #ffdd00;
+  border-bottom: 10px solid #3fff00;
+  /*border: 10px solid purple;*/
 }
 
 #flyer{
