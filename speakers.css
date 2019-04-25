@@ -350,7 +350,7 @@ body{
   display: inline-block;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: cornflowerblue;
+  background-color: #8112cc;
   border-bottom: 2px solid black;
   line-height: 2.5em;
 }
@@ -430,7 +430,7 @@ body{
   }
   .col-lg-8{
     visibility: visible;
-    background-color: cornflowerblue;
+    background-color: #8112cc;
     border: 1px solid purple;
     margin: 0px;
     z-index: 1000;
